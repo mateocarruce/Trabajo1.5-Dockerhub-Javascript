@@ -1,6 +1,6 @@
 # Trabajo1.5-Dockerhub-Javascript
 # Project Title
-Tarea1.2MC_Java
+tarea1.5mc_js
 
 # Project Description
 This project is a simple JavaScript application that displays the message: "Hola Mundo." It demonstrates basic Docker concepts by packaging and running a JavaScript application inside a container, enabling easy deployment and portability.
@@ -17,17 +17,17 @@ To run this project on your system using Docker:
 
 1. *Clone the repository* (optional if hosted on GitHub):
    ```bash
-   git clone <REPOSITORY_URL>
-   cd <DIRECTORY_NAME>
+   git clone https://github.com/mateocarruce/Trabajo1.5-Dockerhub-Javascript.git
+   cd Trabajo1.5-Dockerhub-Javascript
 
 2. *Build the Docker image:* 
-docker build -t mateocarr/tarea1.2mc_java:1.0 .
+docker pull mateocarr/tarea1.5mc_js
 
 3. *Run the container:* 
-docker run mateocarr/tarea1.2mc_java:1.0
+docker run mateocarr/tarea1.5mc_js
 
 # How to Use the Project
-The purpose of this application is to demonstrate the use of Docker to build and run a Java application. Running it in Docker requires no additional setup, making it ideal for learning about deploying Java applications in containers.
+The purpose of this application is to demonstrate the use of Docker to build and run a JavaScript application. Running it in Docker requires no additional setup, making it ideal for learning about deploying JavaScript applications in containers.
 
 # Credits
 Developed by Mateo Carrasco. Feel free to contribute or make suggestions for future improvements.
